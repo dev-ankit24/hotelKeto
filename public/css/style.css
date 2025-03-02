@@ -390,7 +390,7 @@ button {
 }
 
 .book_now .online_book {
-     width: 19rem;
+     width: 100%;
      height: 50px;
      border: #fff solid 1px;
      background-color: transparent;
