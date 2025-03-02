@@ -1,5 +1,6 @@
 import React from 'react'
-
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 export default function Slider() {
    const Booking=()=>{
       alert("Sorry ! Booking Service Not Available")
@@ -46,15 +47,31 @@ export default function Slider() {
                               <div class="col-md-12">
                                  <span>Arrival</span>
                                  <img class="date_cua" src="images/date.png"/>
-                                 <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy"/>
+                                 {/* <input class="online_book"  placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy"/> */}
+                                 <DatePicker
+                                 class="online_book"  
+         //  selected={arrivalDate}
+         //  onChange={handleArrivalChange}
+          dateFormat="dd/MM/yyyy"  // डेट फॉर्मेट सेट करें
+          placeholderText="dd/mm/yyyy"  // प्लेसहोल्डर दिखाने के लिए
+          className="online_book"
+        />
                                  {/* <input type="date"   class='form-control' /> */}
                               </div>
                               <div class="col-md-12 mb-3">
                                  <span>Departure</span>
                                  <img class="date_cua" src="images/date.png"/>
-                                 <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy"/>
+                                 
+                                 {/* <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy"/> */}
                                  {/* <input type="date"  class='form-control' /> */}
-
+                                 <DatePicker
+                                 class="online_book"  
+         //  selected={arrivalDate}
+         //  onChange={handleArrivalChange}
+          dateFormat="dd/MM/yyyy"  // डेट फॉर्मेट सेट करें
+          placeholderText="dd/mm/yyyy"  // प्लेसहोल्डर दिखाने के लिए
+          className="online_book"
+        />
                               </div>
                               <div class="col-md-12">
                                  <button class="book_btn" onClick={Booking}>Book Now</button>

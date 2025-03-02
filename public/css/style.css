@@ -319,7 +319,20 @@ button {
 }
 
 @media only screen and (max-width:600px)
+
 {
+     /* .book_now .online_book {
+          width: 120%;
+          height: 50px;
+          border: #fff solid 1px;
+          background-color: transparent;
+          color: #fff;
+          padding: 0 10px;
+          padding-right: 61px;
+          margin-bottom: 25px;
+          position: relative;
+     } */
+
      .room-price{
           margin-left: -140px;
           margin-top: -15px;
@@ -377,7 +390,7 @@ button {
 }
 
 .book_now .online_book {
-     width: 100%;
+     width: 19rem;
      height: 50px;
      border: #fff solid 1px;
      background-color: transparent;
@@ -394,7 +407,7 @@ button {
      height: 29px;
      top: 48px;
      background-repeat: no-repeat;
-     right: 70px;
+     right: 30px;
 }
 
 .book_btn {
