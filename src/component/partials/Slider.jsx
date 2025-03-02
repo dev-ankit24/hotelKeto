@@ -45,15 +45,15 @@ export default function Slider() {
                            <div class="row">
                               <div class="col-md-12">
                                  <span>Arrival</span>
-                                 {/* <img class="date_cua" src="images/date.png"/> */}
-                                 {/* <input class="online_book" placeholder="dd/mm/yyyy" type="date" /> */}
-                                 <input type="date" placeholder="dd/mm/yyyy"  class='form-control' />
+                                 <img class="date_cua" src="images/date.png"/>
+                                 <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy"/>
+                                 {/* <input type="date"   class='form-control' /> */}
                               </div>
                               <div class="col-md-12 mb-3">
                                  <span>Departure</span>
-                                 {/* <img class="date_cua" src="images/date.png"/> */}
-                                 {/* <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy"/> */}
-                                 <input type="date" placeholder="dd/mm/yyyy"  class='form-control' />
+                                 <img class="date_cua" src="images/date.png"/>
+                                 <input class="online_book" placeholder="dd/mm/yyyy" type="date" name="dd/mm/yyyy"/>
+                                 {/* <input type="date"  class='form-control' /> */}
 
                               </div>
                               <div class="col-md-12">
